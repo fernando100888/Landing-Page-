@@ -1,0 +1,21 @@
+/*
+1. Posicionamiento
+2. Box model
+3. Tipografía
+4. Elementos visuales
+5. Otros
+*/
+:root{
+    /*Colores*/
+    --totb-red:#fa2424;
+    --black: black;
+    --warm-black:#201e1c;
+    --gray:darkgray;
+    --white:white;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
