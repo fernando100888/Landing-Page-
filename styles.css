@@ -33,6 +33,20 @@ header {
     width: 100%;
     min-width: 320px;
     height: 334px;
-    text-align: center;
-    
+    text-align: center;    
+}
+
+header img{
+    width:150px;
+    height: auto;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 50px;
 }
