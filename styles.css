@@ -135,43 +135,58 @@ main{
   height: auto;
   padding: 20px 10px;
   background-color: var(--black);
+  text-align: center;
+  
 }
 
-.services-title{
-  width: 90%;
-  min-width: 288px;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 50px;
-  text-align: center;
-}
 
 .main-services-container p{
     margin-top: 20px;
     font-size: 2.2rem;
     font-weight: bold;
     line-height:1.6rem;
-    color:#757575;
+    color:#757575;      
 }
 
-.services-title h3{
-  margin-top: 50px;
-  margin-bottom: 20px;
-  font-size: 1.9rem;
-  font-weight: bold;
-  line-height: 2.6rem;
-  color: white;
+.services-title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;   
+  }
+
+  .services-title h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: black;
+    padding-top: 25px;
+  }
+
+.services-body{
+    width: 320px;
+    min-width: 320px;
+    height: auto; 
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
-.main-services-container .softwareImg{
+
+.services-body .softwareImg{
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    margin-bottom: 50px;
-    background-image: url("./assets/img/softwareimg.png");
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url("./assets/img/softwareimg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 
