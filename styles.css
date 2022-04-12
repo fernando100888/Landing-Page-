@@ -97,8 +97,8 @@ main{
 .main-exchange-container{
     width:100% ;
     height: auto;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: -20px;
     text-align: center;
 }
 
@@ -114,42 +114,69 @@ main{
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url("./assets/img/engranajes.png");
+    background-image: url("./assets/img/logotipo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .main-exchange-container h2{
-    margin-bottom: 30px;
-    font-size: 2rem;
+    margin-bottom: 75px;
+    font-size: 2.3rem;
     font-weight: bold;
     line-height: 2.5rem;
     color: var(--black)
 }
 
-.main-exchange-container p{
-    margin-bottom: 30px;
-    font-size: 1.4rem;
+.main-services-container {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--black);
+}
+
+.services-title{
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.main-services-container p{
+    margin-top: 20px;
+    font-size: 2.2rem;
     font-weight: bold;
     line-height:1.6rem;
     color:#757575;
 }
 
-.main_softwareAndElectronic-table {
-    width: 70%;
-    min-width: 25px;
-    max-width:500px;
-    height: 360px;
-    margin:0 auto;
-    font-family: "Inter", sans-serif;
+.services-title h3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: white;
 }
 
-.softwareAndElectronic-table-container{
-    width: 90%;
-    min-width: 230px;
-    max-width: 300px;
-    height: 250px;
+.main-services-container .softwareImg{
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("./assets/img/softwareimg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
+
+
+
+
 
