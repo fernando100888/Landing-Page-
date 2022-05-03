@@ -38,7 +38,7 @@ header {
 }
 
 header img{
-    width:300px;
+    width:400px;
     height: auto;
     margin-top: 60px;
     align-self: center;    
@@ -101,6 +101,7 @@ main{
     padding-top: 100px;
     padding-bottom: -20px;
     text-align: center;
+  
 }
 
 .main-exchange-container--title{
@@ -111,8 +112,8 @@ main{
 }
 
 .main-exchange-container .backgroundImg {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     margin: 0 auto;
     margin-bottom: 50px;
     background-image: url("./assets/img/laptop.png");
@@ -134,10 +135,13 @@ main{
   width: 100%;
   min-width: 320px;
   height: auto;
-  padding: 20px 10px;
- 
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;  
   background-color: var(--black);
   text-align: center;
+  
   
 }
 
@@ -171,12 +175,12 @@ main{
   .services-slider{
     display: flex;
     height: 330px;
-    overflow-x:scroll;
+    overflow-x:scroll;    
     overscroll-behavior-x: contain;
     scroll-snap-type: proximity;
-    margin-left: 20px;
-    margin-right: 20
-    ;
+    padding-left: calc(10% - 10px);
+    padding-bottom: 20px;
+
   }
 
 .services-body{
@@ -241,6 +245,7 @@ main{
 .modelo_canvas img {
     width: 100%;
     height: auto;
+    margin-top: 0;
 }
 
 footer .piedepagina {    
